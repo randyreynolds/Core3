@@ -75,4 +75,4 @@ object_draft_schematic_clothing_clothing_nightsister_pants_01 = object_draft_sch
 	}
 }
 
-ObjectTemplates:addTemplate(object_draft_schematic_clothing__clothing_nightsister_pants_01, "object/draft_schematic/clothing/clothing_nightsister_pants_01.iff")
+ObjectTemplates:addTemplate(object_draft_schematic_clothing_clothing_nightsister_pants_01, "object/draft_schematic/clothing/shared_clothing_nightsister_pants_01.iff")

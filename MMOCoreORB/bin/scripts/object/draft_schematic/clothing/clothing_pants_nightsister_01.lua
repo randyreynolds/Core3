@@ -44,7 +44,7 @@
 object_draft_schematic_clothing_clothing_pants_nightsister_01 = object_draft_schematic_clothing_shared_clothing_pants_nightsister_01:new {
 	templateType = DRAFTSCHEMATIC,
 
-	customObjectName = "Nighsister Pestilence Leggings",
+	customObjectName = "Nightsister Pestilence Leggings",
 
 	craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
 	complexity = 25, 

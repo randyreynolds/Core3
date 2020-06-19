@@ -56,7 +56,7 @@ Core3 = {
 	DBPort = 3306,
 	DBName = "swgemu",
 	DBUser = "swgemu",
-	DBPass = "123456",
+	DBPass = "!gbY4u7%sf#8F",
 	DBInstances = 2,
 	DBSecret = "swgemus3cr37!", -- Change this! This value should be unique and of reasonable length.
 
@@ -144,6 +144,8 @@ Core3 = {
 
 	-- Each tre file (order is important!)
 	TreFiles = {
+		"patch_ns_pants01.tre",
+		"test.tre",
 		"default_patch.tre",
 		"patch_sku1_14_00.tre",
 		"patch_14_00.tre",

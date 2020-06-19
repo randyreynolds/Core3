@@ -41,7 +41,7 @@
 --this exception also makes it possible to release a modified version 
 
 
-object_draft_schematic_clothing_clothing_nightsister_pants_01 = object_draft_schematic_clothing_shared_clothing_nightsister_pants_01:new {
+object_draft_schematic_clothing_clothing_pants_nightsister_01 = object_draft_schematic_clothing_shared_clothing_pants_nightsister_01:new {
 	templateType = DRAFTSCHEMATIC,
 
 	customObjectName = "Nighsister Pestilence Leggings",
@@ -75,4 +75,4 @@ object_draft_schematic_clothing_clothing_nightsister_pants_01 = object_draft_sch
 	}
 }
 
-ObjectTemplates:addTemplate(object_draft_schematic_clothing_clothing_nightsister_pants_01, "object/draft_schematic/clothing/shared_clothing_nightsister_pants_01.iff")
+ObjectTemplates:addTemplate(object_draft_schematic_clothing_clothing_pants_nightsister_01, "object/draft_schematic/clothing/shared_clothing_nightsister_pants_01.iff")

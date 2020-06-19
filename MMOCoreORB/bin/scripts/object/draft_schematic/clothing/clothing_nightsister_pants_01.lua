@@ -41,35 +41,38 @@
 --this exception also makes it possible to release a modified version 
 
 
-object_tangible_wearables_pants_nightsister_pants_s01 = object_tangible_wearables_pants_shared_nightsister_pants_s01:new {
-	playerRaces = { "object/creature/player/bothan_female.iff",
-				"object/creature/player/human_female.iff",
-				"object/creature/player/moncal_female.iff",
-				"object/creature/player/rodian_female.iff",
-				"object/creature/player/sullustan_female.iff",
-				"object/creature/player/trandoshan_female.iff",
-				"object/creature/player/twilek_female.iff",
-				"object/creature/player/zabrak_female.iff",
-				"object/mobile/vendor/aqualish_female.iff",
-				"object/mobile/vendor/bith_female.iff",
-				"object/mobile/vendor/bothan_female.iff",
-				"object/mobile/vendor/human_female.iff",
-				"object/mobile/vendor/moncal_female.iff",
-				"object/mobile/vendor/rodian_female.iff",
-				"object/mobile/vendor/sullustan_female.iff",
-				"object/mobile/vendor/trandoshan_female.iff",
-				"object/mobile/vendor/twilek_female.iff",
-				"object/mobile/vendor/zabrak_female.iff" },
+object_draft_schematic_clothing_clothing_nightsister_pants_01 = object_draft_schematic_clothing_shared_clothing_nightsister_pants_01:new {
+	templateType = DRAFTSCHEMATIC,
 
-	numberExperimentalProperties = {1, 1, 1, 1},
-	experimentalProperties = {"XX", "XX", "XX", "XX"},
-	experimentalWeights = {1, 1, 1, 1},
-	experimentalGroupTitles = {"null", "null", "null", "null"},
-	experimentalSubGroupTitles = {"null", "null", "sockets", "hitpoints"},
-	experimentalMin = {0, 0, 0, 1000},
-	experimentalMax = {0, 0, 0, 1000},
-	experimentalPrecision = {0, 0, 0, 0},
-	experimentalCombineType = {0, 0, 4, 4},
+	customObjectName = "Nighsister Pestilence Leggings",
+
+	craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
+	complexity = 25, 
+	size = 3, 
+
+	xpType = "crafting_clothing_general", 
+	xp = 80, 
+
+	assemblySkill = "clothing_assembly", 
+	experimentingSkill = "clothing_experimentation", 
+	customizationSkill = "clothing_customization", 
+
+	customizationOptions = {2, 1},
+	customizationStringNames = {"/private/index_color_1", "/private/index_color_2"},
+	customizationDefaults = {36, 47},
+
+	ingredientTemplateNames = {"craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n"},
+	ingredientTitleNames = {"shell", "binding_and_hardware", "colorizable_cloth_panel"},
+	ingredientSlotType = {0, 1, 0},
+	resourceTypes = {"hide", "object/tangible/component/clothing/shared_metal_fasteners.iff", "hide"},
+	resourceQuantities = {50, 2, 50},
+	contribution = {100, 100, 100},
+
+
+	targetTemplate = "object/tangible/wearables/pants/clothing_nightsister_pants_01.iff",
+
+	additionalTemplates = {
+	}
 }
 
-ObjectTemplates:addTemplate(object_tangible_wearables_pants_nightsister_pants_s01, "object/tangible/wearables/pants/nightsister_pants_s01.iff")
+ObjectTemplates:addTemplate(object_draft_schematic_clothing__clothing_nightsister_pants_01, "object/draft_schematic/clothing/clothing_nightsister_pants_01.iff")

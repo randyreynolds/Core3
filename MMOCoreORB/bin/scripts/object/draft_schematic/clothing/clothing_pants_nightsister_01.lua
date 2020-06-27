@@ -69,10 +69,10 @@ object_draft_schematic_clothing_clothing_pants_nightsister_01 = object_draft_sch
 	contribution = {100, 100, 100},
 
 
-	targetTemplate = "object/tangible/wearables/pants/shared_clothing_nightsister_pants_s01.iff",
+	targetTemplate = "object/tangible/wearables/pants/clothing_nightsister_pants_s01.iff",
 
 	additionalTemplates = {
 	}
 }
 
-ObjectTemplates:addTemplate(object_draft_schematic_clothing_clothing_pants_nightsister_01, "object/draft_schematic/clothing/shared_clothing_nightsister_pants_01.iff")
+ObjectTemplates:addTemplate(object_draft_schematic_clothing_clothing_pants_nightsister_01, "object/draft_schematic/clothing/clothing_nightsister_pants_01.iff")
